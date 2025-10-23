@@ -112,7 +112,7 @@ var DoLoad = function()
 {
 	Msg(TXT.LOAD);
 	window.onerror = function(e,u,l) { Fail(e+'<br>('+u+':'+l+')'); };
-	Module = { TOTAL_MEMORY: 1024*1024*240, TOTAL_STACK: 1024*1024*20, currentScriptUrl: '-', preInit: DoExecute };
+	Module = { TOTAL_MEMORY: 1024*1024*600, TOTAL_STACK: 1024*1024*10, currentScriptUrl: '-', preInit: DoExecute };
 	var s = document.createElement('script'), d = document.documentElement;
 	s.src = 'index.js';
 	s.async = true;
