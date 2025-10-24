@@ -64,21 +64,14 @@ html, body
 	</style>
 </head>
 <body>
-<div id="wrapper">
-	<h1 id="title">Spellfluid</h1>
-	<div id="main">
-		<center style="margin-bottom:10px">Fluid Mechanics</center>
-		<center><canvas id="canvas" width="720" height="720" style="max-width:100%;background:#000;vertical-align:middle"></canvas></center>
-	</div>
-</div>
-<div id="footer">&copy; JakeOJeff &middot; Made using the <a href="https://love2d.org/" target="_blank">LÖVE Framework</a> (<a href="https://raw.githubusercontent.com/love2d/love/main/license.txt" target="_blank">License</a>) &middot; Packaged using <a href="https://schellingb.github.io/LoveWebBuilder/" target="_blank">LÖVE Web Builder</a></div>
+
 <script type="text/javascript">(function(){
 var TXT =
 {
-	PLAYBTN: 'Click here to launch the game',
-	LOAD:    'Downloading Game',
-	EXECUTE: 'Starting Game',
-	DLERROR: 'Error while downloading game data.\nCheck your internet connection.',
+	PLAYBTN: 'LAUNCH SPELLFLUID',
+	LOAD:    'DOWNLOAD RESOURCES',
+	EXECUTE: 'LOADING',
+	DLERROR: 'Error while downloading fluid data.\nCheck your internet connection.',
 	NOWEBGL: 'Your browser or graphics card does not seem to support <a href="http://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation">WebGL</a>.<br>Find out how to get it <a href="http://get.webgl.org/">here</a>.',
 };
 var canvas = document.getElementById('canvas'), ctx;
